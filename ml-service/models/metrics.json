@@ -1,0 +1,31 @@
+{
+  "best_model": "RandomForest",
+  "evaluation_metrics": {
+    "LinearRegression": {
+      "MAE": 24.183,
+      "RMSE": 34.542,
+      "R2_Score": 0.7217
+    },
+    "RandomForest": {
+      "MAE": 4.182,
+      "RMSE": 6.44,
+      "R2_Score": 0.9903
+    },
+    "GradientBoosting": {
+      "MAE": 5.221,
+      "RMSE": 8.302,
+      "R2_Score": 0.9839
+    }
+  },
+  "features": [
+    "people_ahead",
+    "active_counters",
+    "average_service_time",
+    "queue_length",
+    "hour",
+    "day_of_week",
+    "service_type",
+    "recent_skipped_count"
+  ],
+  "last_trained": "2026-09-09T17:11:07.244441"
+}

@@ -1,0 +1,4 @@
+backend/src/config/queueless-3f141-firebase-adminsdk-fbsvc-cc7a24fbf5.json
+frontend/node_modules/
+ml-service/__pycache__/
+backend/src/config/*firebase*.json
